@@ -80,6 +80,7 @@ class _MyHomePageState extends State<MyHomePage> {
             ),
             Text(
               '$_counter',
+              // this is changed to addres the deprecated apis in dart lang
               style: Theme.of(context).textTheme.headline1,
             ),
           ],
